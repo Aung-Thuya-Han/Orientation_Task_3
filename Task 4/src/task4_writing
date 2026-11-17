@@ -1,0 +1,15 @@
+I looked at several distributions in the
+NIST Engineering Statistics Handbook.
+An exponential distribution can model how long it takes
+for the next customer to arrive.
+A Poisson distribution can model how many customers
+arrive in an hour.
+Both examples assume customers arrive independently
+at a steady average rate.
+A uniform distribution could model a service time
+between 2 and 6 minutes if any one-minute interval
+in that range is equally likely.
+A normal distribution could model measurement errors
+that are usually close to zero.
+A binomial distribution could model how many out of 20
+customers buy something if each customer independently has the same chance of buying.

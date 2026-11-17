@@ -1,0 +1,12 @@
+First, I count how many students are of each age
+and divide each count by the total number of students
+to find its probability. Then I add the probabilities
+one by one to make a list of running totals.
+The last total should be 1. For each draw,
+I generate a random number from 0 up to but
+not including 1. I pick the first age whose running total
+is greater than that number. For example, if the running total
+is 0.16 for age 20 and 0.34 for age 21, a draw of 0.25 gives age 21.
+I repeat this 1,000 times and count how often each age appears.
+The final percentages should be close to the group’s percentages
+with some differences due to chance.

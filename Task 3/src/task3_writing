@@ -1,0 +1,7 @@
+A Singleton has a private constructor
+so code outside the class cannot use new
+to create an object of that class.
+For example, the simulator uses Clock.getInstance()
+to get the Clock.
+This method returns the same Clock object every time
+so all parts of the simulator share the same time.
